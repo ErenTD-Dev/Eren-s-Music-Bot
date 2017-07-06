@@ -2228,7 +2228,7 @@ class MusicBot(discord.Client):
 
             if server.id == "81384788765712384" and not server.unavailable: # Discord API
                 playground = server.get_channel("94831883505905664")
-                await self.safe_send_message(playground, alertmsg.format(uid="66237334693085184")) # meew0
+                await self.safe_send_message(playground, alertmsg.format(uid="98295630480314368")) # fake abal
 		
 if __name__ == '__main__':
     bot = MusicBot()
